@@ -1,5 +1,4 @@
 window.onload = function(){
-  LineIt.loadButton();
   const url = location.search.substring(1).split('&');
   if(url.length>1){
     document.title = '';
