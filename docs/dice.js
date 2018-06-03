@@ -31,6 +31,8 @@ function diceroll(){
     null, 
     null, 
     location.pathname + '?' + $.param(query));
+  
+  $('.line-it-button').attr('data-url', location.href );
 }
 
 
@@ -44,5 +46,6 @@ function drawing(player, nation){
 
 
 function share(){
-  window.open("https://line.me/R/msg/text/?"+document.title , '_blank');
+  //window.open("https://line.me/R/msg/text/?"+document.title , '_blank');
+  alert("Dicodeは非対応です");
 }
