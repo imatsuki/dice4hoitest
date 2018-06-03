@@ -1,4 +1,5 @@
 window.onload = function(){
+  LineIt.loadButton();
   const url = location.search.substring(1).split('&');
   if(url.length>1){
     document.title = '';
@@ -43,5 +44,5 @@ function drawing(player, nation){
 
 
 function share(){
-  alert("自分でやってね");
+  window.open("https://line.me/R/msg/text/?"+document.title , '_blank');
 }
