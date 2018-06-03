@@ -44,7 +44,7 @@ function drawing(player, nation){
 
 function lineShare(){
   window.open(
-    "https://line.me/R/msg/text/?"+documnt.title+'%0D%0A'+encodeURI(location.href),
+    "https://line.me/R/msg/text/?"+document.title+'%0D%0A'+encodeURI(location.href),
     '_blank'
   );
 }
